@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,14 +6,39 @@
 
 #amazon_logo img {
     width: 105px;
-    padding-top: 13px;
 }
 
-nav{
+#amazon_logo div:nth-child(2){
+    margin-top: 6px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+main{
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Aug-ART-22/GW/Event/Hero/NTA/Aug_ART_PC_LIVE_now_UNREC_FDFO._CB630844079_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav1{
     background-color: #131921;
     color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
 }
 
+#nav2{
+    background-color: #232f3e;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+
+#nav2 :first-child{
+    margin-left: 9px;
+}
 
 .write input{
     width: 37vw;
@@ -44,4 +70,30 @@ nav{
     border-right: 1px solid #cdcdcd;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+
+.address div:first-child{
+    color: #ccc;
+    font-size: 12px;
+}
+
+.location-icon i{
+    font-size: 17px;
+    margin: 1px 4px;
+}
+
+.drop-icon i{
+    margin-left:7px;
+    margin-bottom: 7px;
+    font-size: 10px;
+}
+
+.country img{
+    width: 25px;
+    background-color: transparent;
+}
+
+.hburger-icon i{
+    font-size: 20px;
+    margin-right: 3px;
 }

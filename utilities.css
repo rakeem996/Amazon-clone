@@ -18,10 +18,32 @@
     align-items: center;
 }
 
-.px-2{
-    padding: 0px 12px;
+.py-2{
+    padding:12px 0px;
 }
 
 .justify-space-between{
     justify-content: space-between;
+}
+
+.justify-space-around{
+    justify-content: space-around;
+}
+
+.align-end{
+    align-items: end;
+}
+.bold{
+    font-weight: bolder;
+}
+.light{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.p-0{
+    padding: 0;
+}
+.m-0{
+    margin: 0;
 }
