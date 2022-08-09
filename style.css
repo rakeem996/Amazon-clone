@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#amazon_logo img{
+    width: 120px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+.write input{
+    width: 37vw;
+    height: 35px;
+}
+
+.search-icon{
+    padding: 15px;
+}
+.search-icon i{
+    font-size: 20px;
+}
