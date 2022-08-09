@@ -3,23 +3,45 @@
     padding: 0;
 }
 
-#amazon_logo img{
-    width: 120px;
+#amazon_logo img {
+    width: 105px;
+    padding-top: 13px;
 }
 
 nav{
-    background-color: black;
+    background-color: #131921;
     color: white;
 }
 
+
 .write input{
     width: 37vw;
-    height: 35px;
+    height: 40px;
+    border: none;
 }
 
 .search-icon{
-    padding: 15px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background-color: #febd69;
+    color:black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
+
+
 .search-icon i{
     font-size: 20px;
+}
+
+.dropdown{
+    background-color: #f3f3f3;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    color:black;
+    border-right: 1px solid #cdcdcd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
