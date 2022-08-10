@@ -18,9 +18,10 @@ header{
 }
 
 main{
-    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Aug-ART-22/GW/Event/Hero/NTA/Aug_ART_PC_LIVE_now_UNREC_FDFO._CB630844079_.jpg');
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Aug-ART-22/GW/Hero/Tomorrow/Aug_ART_PC_Hero_Shop_Ends_Tomorrow_Unrec._CB629349681_.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
+    background-clip: border-box;
 }
 #nav1{
     background-color: #131921;
